@@ -1,0 +1,31 @@
+.center {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: all .2s ease-in-out;
+  }
+
+  .center:hover {
+    transform: scale(1.1);
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .video {
+    position: relative;
+    width: 480px;
+    height: 280px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
